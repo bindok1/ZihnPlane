@@ -1,0 +1,62 @@
+../../ untuk menambahkan banyak package
+untuk menambahkan navigasi page gunakan initstate pd statefulwidget
+biar tidak terlalu panjang untuk navigasi nya bisa gunakan fitur dari flutter nya routes:
+bisa setting default margin dan radius di theme.dart
+gunakan obsecuretext untuk membuat password bintang2
+double infinity berarti mengisi semua container
+setelah column gunakan mainaxisalignment.center agar di tengah
+gunakan expanded untuk membuat antar widget proporsional
+gunakan text button agar bisa stateful widget
+wrap with align untuk membuat widget dibagian bawah
+mainaxisalignment space between untuk memberi space antar child
+gunakan variabel final untuk membuat widget berulang function sertakan ()
+cross axis alignmnet start agar widget rata kiri
+gunakan bosxhape.circle agar bentuk gambar menjadi lingkaran
+gunakan margin bottom jika masih satu container
+gesturedetector agar bila di klik ke halaman detailpage
+untuk membuat state management instal bloc dlu
+install cubit lewat pub dart install ekstensi bloc di vsc shift+command+p agar create folder cepat 
+lewat pubspec.yaml
+
+saat setting firebase ios cari di folder runnner.xcodeworkspace
+instal firebase core dan auth
+install cloud_firestore
+
+untuk menambah kan apps di android download google services json tmbah di folder app
+ssetting autentikasi firebase 
+setting database firestore
+edit rules firebase if true
+di authservcie pergi ke firebase buat collection kosong
+bloc consumer untuk listen dan build
+navigator.pushNamedRemoveUntil agar tidak bisa kembali ke page sebelumnya
+navigator.pop(context) untuk kembali ke page sebelumnya
+tadinya kana lgsg ke setting page agar ke hal.home tambah di setting pagecontext.read<PageCubit>().setPage(0); agar menavigasi ke halaman 
+equatable untuk memabandingkan 2 properti yg sama
+untuk membuat loading gunakan destination state di cubit
+bloc consumer untuk membuat data di firebase ke apps kita
+//tambahkan List<DestinationModel> dan jika dipanggil tmbah state.destination untuk membuat data menjadi dinamis
+untuk menambahkan currency gunakan package intl di pub dev
+buildcontext untuk melacak widget
+bloc consumer utk me react status terbaru
+
+langkah membuat consume api bloc
+1. buat cubit beri nama
+2. buat loading dan failed dengan extends state pada bagian cubit state
+3. liat contoh dibagian service transaction state
+4. pergi ke transaction cubit
+5. buat method untuk transaksi 
+buat file dart baru transaction_service
+
+ubah data ke json liat di bagian DestinationModel
+setelah diubah pergi ke transaction_service 
+pergi ke transaction cubit
+pergi ke main.dart dan buat route bloc baru dengan multiprovider
+
+menambahkan  transaction ke firebase
+buka ke widget checkout yg akan di buat
+1.buat blocConsumer
+
+
+utk up ke playstore browse di web flutter deploy android
+di folder android buat file key.properties
+utk buat bundle ketik flutter build appbundle
